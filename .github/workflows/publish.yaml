@@ -27,7 +27,7 @@ jobs:
         with:
           push: true
           file: Dockerfile
-          tags: ${{ secrets.DOCKERHUB_REPO }}:latest
+          tags: georgevm185/location-destination:latest
           build-args: |
             VITE_FIREBASE_CONFIG=${{ secrets.VITE_FIREBASE_CONFIG }}
             VITE_API_URL=${{ secrets.VITE_API_URL }}
